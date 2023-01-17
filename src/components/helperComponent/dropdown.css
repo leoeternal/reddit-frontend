@@ -1,0 +1,121 @@
+.header-wrapper .dropdown {
+  width: 600px;
+  margin: 0 10px;
+  position: relative;
+  z-index: 999;
+}
+
+.dropdown .selected-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.dropdown .selected-option:hover,
+.dropdown .selected-option:focus {
+  border: 1px solid rgb(217, 217, 217);
+}
+
+.dropdown .selected-option #selected-name,
+.dropdown .selected-option #selected-name-header {
+  position: absolute;
+  left: 38px;
+  top: 11px;
+}
+
+.dropdown .options {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  border: 1px solid rgb(217, 217, 217);
+  top: 35px;
+  left: 0;
+  box-sizing: border-box;
+  overflow: auto;
+  background-color: white;
+}
+
+.dropdown .options #your-community,
+.dropdown .options #feeds,
+.dropdown .options #other {
+  font-size: 11px;
+  color: grey;
+  margin: 10px;
+}
+
+.options .create-community-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 0 0;
+  padding: 5px 20px;
+}
+
+.options .feed-options-container,
+.options .other-options-container {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.options .create-community-container:hover,
+.options .feed-options-container:hover,
+.options .other-options-container:hover {
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+.dropdown .options #create-community,
+.dropdown .options #feed-option,
+.dropdown .options #other-option {
+  font-size: 15px;
+  margin-left: 5px;
+  color: rgb(36, 36, 36);
+}
+
+.options .community-list {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  position: relative;
+}
+
+.options .community-list:hover {
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+.options .community-list #star {
+  position: absolute;
+  right: 10px;
+}
+
+@media (max-width: 740px) {
+  .header-wrapper .dropdown {
+    width: 150px;
+  }
+  .dropdown .selected-option #selected-name-header {
+    display: none;
+  }
+  .dropdown .options {
+    width: 300px;
+  }
+}
+
+@media (max-width: 355px) {
+  .header-wrapper .dropdown {
+    width: 50px;
+    position: static;
+  }
+  .header-wrapper .selected-option #downarrow-icon {
+    display: none;
+  }
+  .dropdown .options {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100vw;
+  }
+}

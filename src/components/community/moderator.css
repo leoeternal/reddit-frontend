@@ -1,0 +1,110 @@
+.moderator-wrapper .header {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid grey;
+  background-color: white;
+  padding: 10px 15px;
+}
+
+.moderator-wrapper .header #header-title {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.moderator-wrapper .moderator-container {
+  padding: 70px 15px;
+}
+
+.moderator-container .invite-button-container #title {
+  font-size: 18px;
+}
+
+.moderator-container .invite-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.moderator-container .search-modlist-container {
+  margin-top: 10px;
+}
+
+.search-modlist-container .search {
+  background-color: rgb(237, 239, 241);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.search-modlist-container .search input {
+  border: 1px solid grey;
+  outline: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  padding: 0 10px;
+}
+
+.search-modlist-container .search input:focus {
+  border: 1px solid rgb(77, 77, 203);
+}
+
+::placeholder {
+  font-size: 15px;
+  color: rgb(121, 121, 121);
+}
+
+.search-modlist-container .mod {
+  border-bottom: 1px solid rgb(221, 221, 221);
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.search-modlist-container .mod:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+.search-modlist-container .invited-mod {
+  border-bottom: 1px solid rgb(221, 221, 221);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  background-color: white;
+}
+
+.invited-mod .invite-username-picture {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.invited-mod .invite-username-picture:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.search-modlist-container .invited-mod #time {
+  font-size: 14px;
+  color: grey;
+}
+
+@media (max-width: 450px) {
+  .moderator-container .invite-button-container {
+    flex-direction: column;
+    align-items: start;
+  }
+  .moderator-container .invite-button-container #mod-button {
+    font-size: 12px;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  .search-modlist-container .invited-mod #time {
+    font-size: 12px;
+  }
+}

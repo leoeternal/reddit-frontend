@@ -1,0 +1,103 @@
+.userrightinfo-wrapper {
+  background-color: white;
+}
+
+.userrightinfo-wrapper .cover-background {
+  height: 100px;
+  background-image: url("https://i.redd.it/sgf6r5easbh31.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.userrightinfo-wrapper .user-picture-container {
+  position: relative;
+  top: 30px;
+  height: 100px;
+  width: 95%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-picture-container .picture {
+  width: 80px;
+  height: 80%;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+}
+
+.user-picture-container .picture img {
+  outline: 1px solid rgb(230, 230, 230);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.user-picture-container .name {
+  width: 80px;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-picture-container .name p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.userrightinfo-wrapper .user-picture #username {
+  text-align: center;
+}
+
+.userrightinfo-wrapper .karma-cake-container {
+  margin-top: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.karma-cake-container .karma-cake-box {
+  width: 45%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.karma-cake-container .karma-cake-box #title,
+.userrightinfo-wrapper .follower-box #title {
+  font-size: 14px;
+}
+
+.karma-cake-container .karma-cake-box #sub-title,
+.userrightinfo-wrapper .follower-box #sub-title {
+  font-size: 12px;
+  color: grey;
+}
+
+.userrightinfo-wrapper .follower-box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.follower-box-container .follower-box {
+  width: 94%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 900px) {
+  .userrightinfo-wrapper {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10px;
+  }
+}

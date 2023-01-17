@@ -1,0 +1,32 @@
+.layout-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.layout-wrapper .left-component {
+  width: 69%;
+}
+
+.layout-wrapper .right-component {
+  width: 29%;
+}
+
+@media (max-width: 900px) {
+  .layout-wrapper .left-component {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .layout-wrapper .right-component {
+    display: none;
+  }
+}
+
+@media (max-width: 470px) {
+  .layout-wrapper .left-component {
+    padding: 0;
+  }
+}

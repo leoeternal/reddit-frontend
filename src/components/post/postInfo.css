@@ -1,0 +1,12 @@
+.postinfo-wrapper .profile-container {
+  height: 80px;
+  background-color: black;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.postinfo-wrapper .profile-container p {
+  color: white;
+  margin-left: 10px;
+}

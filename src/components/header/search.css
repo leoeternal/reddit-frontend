@@ -1,0 +1,56 @@
+.search-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 45px;
+  left: 0;
+  background-color: white;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  z-index: 999;
+  padding-bottom: 5px;
+}
+
+.search-wrapper .community-container #title,
+.search-wrapper .user-container #title {
+  padding: 15px;
+  font-weight: 600;
+  color: rgb(23, 23, 23);
+}
+
+.community-container .community,
+.user-container .people {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.community-container .community:hover,
+.user-container .people:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+.community .name-members-container,
+.people .name-members-container {
+  margin: 0 5px;
+}
+
+.community .name-members-container #name,
+.people .name-members-container #name {
+  letter-spacing: 0.2px;
+}
+
+.community .name-members-container #details,
+.people .name-members-container #details {
+  font-size: 12px;
+  color: grey;
+}
+
+@media (max-width: 600px) {
+  .search-wrapper {
+    width: 100vw;
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+}

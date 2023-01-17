@@ -1,0 +1,92 @@
+.communityright-wrapper {
+  background-color: white;
+}
+
+.communityright-wrapper .community-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(1, 121, 211);
+  padding: 10px;
+}
+
+.communityright-wrapper .community-header p {
+  color: white;
+}
+
+.communityright-wrapper .picture-name-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.communityright-wrapper .desc-date-container {
+  border-bottom: 1px solid rgb(210, 210, 210);
+  margin: 0 15px 0 15px;
+  padding: 10px 0;
+}
+
+.communityright-wrapper .desc-date-container textarea {
+  border-color: rgb(195, 195, 195);
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  outline: none;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.communityright-wrapper .desc-date-container textarea::placeholder {
+  font-size: 15px;
+  color: rgb(9, 125, 212);
+  font-weight: 700;
+}
+
+.communityright-wrapper .desc-date-container #date {
+  margin-left: 5px;
+  color: rgb(94, 94, 94);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.communityright-wrapper .members-container {
+  border-bottom: 1px solid rgb(210, 210, 210);
+  margin: 0 15px 15px 15px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.members-container .total,
+.members-container .online {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.members-container .total #key,
+.members-container .online #key {
+  color: rgb(94, 94, 94);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.communityright-wrapper .createpost-container {
+  margin: 0 15px 15px 15px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .communityright-wrapper {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10px;
+  }
+}

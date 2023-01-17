@@ -1,0 +1,44 @@
+.invite-search {
+  margin-top: 20px;
+}
+
+.invite-search input {
+  border: 1px solid rgb(235, 235, 235);
+  outline: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 500px;
+  padding: 0 10px;
+}
+
+.invite-search input:focus {
+  border: 1px solid rgb(77, 77, 203);
+}
+
+::placeholder {
+  font-size: 15px;
+  color: rgb(121, 121, 121);
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.checkbox-container #title {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+}
+
+.checkbox-container #sub-title {
+  font-size: 14px;
+  color: grey;
+}
+
+@media (max-width: 550px) {
+  .invite-search input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,37 @@
+.userprofile-wrapper .header {
+  border-top: 1px solid rgb(227, 227, 227);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+}
+.userprofile-wrapper .header #selected {
+  border-bottom: 2px solid rgb(9, 145, 250);
+  color: rgb(93, 170, 227);
+  padding: 10px;
+  font-size: 15px;
+}
+.userprofile-wrapper .header p {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.userprofile-wrapper .user-info-mobile {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .userprofile-wrapper .user-info-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .userprofile-wrapper .header p {
+    font-size: 12px;
+  }
+  .userprofile-wrapper .header #selected {
+    font-size: 12px;
+  }
+}

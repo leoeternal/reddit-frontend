@@ -1,0 +1,68 @@
+.communityprofile-wrapper .coverpicture-container {
+  background-image: url("https://i.redd.it/sgf6r5easbh31.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+
+.communityprofile-wrapper .profilepicture-wrapper {
+  height: 100px;
+  background-color: white;
+}
+
+.profilepicture-wrapper .profilepicture-container {
+  max-width: 1000px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.profilepicture-wrapper .picture {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  bottom: 15px;
+}
+
+.profilepicture-wrapper .picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.profilepicture-container .name-container {
+  padding: 10px 20px 0 10px;
+}
+
+.name-container .buttons-mobile {
+  display: none;
+}
+
+.profilepicture-container .name-container #communityname {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.profilepicture-container .name-container #sub-communityname {
+  font-size: 15px;
+  font-weight: 300;
+  color: grey;
+}
+
+.communityprofile-wrapper .community-info-mobile {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .communityprofile-wrapper .community-info-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 329px) {
+  .name-container .buttons-mobile {
+    display: block;
+  }
+  .profilepicture-container .buttons {
+    display: none;
+  }
+}

@@ -1,0 +1,61 @@
+.header-wrapper .profile-dropdown {
+  width: 130px;
+  z-index: 999;
+}
+
+.profile-dropdown .profile-selected-option {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.profile-dropdown .profile-selected-option:hover,
+.profile-dropdown .profile-selected-option:focus {
+  border: 1px solid rgb(217, 217, 217);
+}
+
+.profile-dropdown .profile-options {
+  width: 250px;
+  position: absolute;
+  border: 1px solid rgb(217, 217, 217);
+  right: 10px;
+  box-sizing: border-box;
+  overflow: auto;
+  background-color: white;
+}
+
+.profile-dropdown .profile-options #stuff {
+  font-size: 15px;
+  color: grey;
+  margin: 15px 10px;
+}
+
+.profile-dropdown .profile-options .my-stuff {
+  font-size: 15px;
+  color: rgb(36, 36, 36);
+  padding: 10px 30px;
+  box-sizing: border-box;
+}
+
+.profile-dropdown .profile-options .my-stuff:hover {
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+.profile-options .setting-options-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-options .setting-options-container:hover {
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+.profile-options .setting-options-container #feed-option {
+  color: rgb(36, 36, 36);
+}

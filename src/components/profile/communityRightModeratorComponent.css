@@ -1,0 +1,42 @@
+.communityright-wrapper {
+  background-color: white;
+}
+
+.communityright-wrapper .community-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(1, 121, 211);
+  padding: 10px;
+}
+
+.communityright-wrapper .community-header p {
+  color: white;
+}
+
+.communityright-wrapper .mod-body {
+  padding: 10px;
+}
+
+.communityright-wrapper .mod-body #mod-name {
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  color: rgb(1, 121, 211);
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.communityright-wrapper .mod-body #view-all {
+  color: rgb(1, 121, 211);
+  font-weight: 600;
+  font-size: 13px;
+  text-align: right;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.communityright-wrapper .mod-body #no-mod-title {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px 0;
+}

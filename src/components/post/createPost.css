@@ -1,0 +1,61 @@
+.createpost-wrapper #createpost-text {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.createpost-wrapper #underline {
+  color: red;
+  margin: 15px 0;
+}
+
+.createpost-wrapper .dropdown {
+  width: 300px;
+  position: relative;
+  background-color: white;
+}
+
+.createpost-wrapper .post-container {
+  border: 1px solid rgb(211, 211, 211);
+  background-color: white;
+  margin-top: 10px;
+}
+
+.post-container .level1 {
+  border-bottom: 1px solid rgb(211, 211, 211);
+  display: flex;
+}
+
+.level1 .level1-post {
+  border: 1px solid rgb(231, 231, 231);
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.level1 .level1-post:hover {
+  background-color: rgb(244, 247, 255);
+}
+
+.post-container .level2 {
+  padding: 10px;
+}
+
+.level2 #textarea {
+  border: 1px solid rgb(211, 211, 211);
+  resize: none;
+  width: 100%;
+  outline-color: rgb(207, 207, 207);
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.post-container .level3 {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

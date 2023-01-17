@@ -1,0 +1,43 @@
+.twobuttoncomponent-wrapper {
+  background-color: white;
+  margin-top: 20px;
+}
+
+.twobuttoncomponent-wrapper .banner {
+  height: 50px;
+  background-image: url("https://www.redditinc.com/assets/images/blog/_720x280_crop_center-center_none/hangoutsscreen_1-1-1.jpg");
+  background-size: cover;
+}
+
+.twobuttoncomponent-wrapper .reddit-logo-container {
+  border-bottom: 1px solid rgb(213, 213, 213);
+  margin: 10px;
+}
+
+.reddit-logo-container .logo-name {
+  display: flex;
+  align-items: flex-end;
+}
+
+.reddit-logo-container .logo-name img {
+  width: 40px;
+  height: 60px;
+}
+
+.reddit-logo-container .logo-name #home-text {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.reddit-logo-container .bio {
+  margin: 10px 0;
+}
+
+.reddit-logo-container .bio p {
+  font-size: 13px;
+  color: rgb(48, 48, 48);
+}
+
+.twobuttoncomponent-wrapper .twobutton-container {
+  padding: 10px;
+}
